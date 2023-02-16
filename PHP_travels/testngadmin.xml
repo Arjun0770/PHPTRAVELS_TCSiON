@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.phptravels.admin_test.Admin_login_test"/>
+      <class name="com.phptravels.admin_test.LogoutTest"/>
+      <class name="com.phptravels.admin_test.Admin_weblink_test"/>
+      <class name="com.phptravels.admin_test.Admin_RecordDL_test"/>
+      <class name="com.phptravels.admin_test.Admin_Statusupdate_test"/>  
+       <class name="com.phptravels.admin_test.Admin_booking_test"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+</suite> <!-- Suite -->

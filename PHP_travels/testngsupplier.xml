@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.phptravels.supplier_test.Supplier_login_test"/>
+      <class name="com.phptravels.supplier_test.Supplier_logout_test"/>
+      <class name="com.phptravels.supplier_test.Supplier_dashboard_test"/>
+      <class name="com.phptravels.supplier_test.Supplier_revenue_test"/>
+      <class name="com.phptravels.supplier_test.Supplier_SideLinksTest"/>
+      <class name="com.phptravels.supplier_test.Supplier_statusUpdate_test"/> 
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
